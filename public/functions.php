@@ -10,7 +10,7 @@
     }
 
     // Add a new user
-    function addUsers()
+    function addUser()
     {
         global $pdo;
         $stmt = $pdo->prepare("INSERT INTO users (name, email) VALUES (? , ?)");
